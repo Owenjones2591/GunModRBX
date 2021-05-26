@@ -78,7 +78,7 @@ function Forums.new(newName)
     shadow.Name = "shadow"
     shadow.Parent = _81asf91z9asf1
     shadow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    shadow.BackgroundTransparency = 1.000
+    shadow.BackgroundTransparency = 1
     shadow.Position = UDim2.new(0.377575755, 0, 0.382281542, 0)
     shadow.Size = UDim2.new(0, 539, 0, 317)
     shadow.ZIndex = 0
@@ -103,7 +103,7 @@ function Forums.new(newName)
     title.Name = "title"
     title.Parent = header
     title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    title.BackgroundTransparency = 1.000
+    title.BackgroundTransparency = 1
     title.Position = UDim2.new(0.0164541025, 0, 0.170633629, 0)
     title.Size = UDim2.new(0, 202, 0, 23)
     title.ZIndex = 5
@@ -120,7 +120,7 @@ function Forums.new(newName)
             }):Play()
             wait()
             game.TweenService:Create(shadow, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {
-                ImageTransparency = 0
+                ImageTransparency = 1
             }):Play()
             minimized = false
         else
@@ -138,7 +138,7 @@ function Forums.new(newName)
     triangle1.Name = "triangle1"
     triangle1.Parent = header
     triangle1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    triangle1.BackgroundTransparency = 1.000
+    triangle1.BackgroundTransparency = 1
     triangle1.BorderSizePixel = 0
     triangle1.ClipsDescendants = true
     triangle1.Position = UDim2.new(-0.302344143, 0, -0.483461976, 0)
@@ -149,7 +149,7 @@ function Forums.new(newName)
     triangle.Name = "triangle"
     triangle.Parent = header
     triangle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    triangle.BackgroundTransparency = 1.000
+    triangle.BackgroundTransparency = 1
     triangle.BorderSizePixel = 0
     triangle.ClipsDescendants = true
     triangle.Position = UDim2.new(0.824735582, 0, -0.483461976, 0)
@@ -159,7 +159,7 @@ function Forums.new(newName)
 
     close.Name = "close"
     close.Parent = header
-    close.BackgroundTransparency = 1.000
+    close.BackgroundTransparency = 1
     close.Position = UDim2.new(0.944999993, 0, 0.199000001, 0)
     close.Size = UDim2.new(0, 20, 0, 20)
     close.ZIndex = 2
@@ -199,14 +199,14 @@ function Forums.new(newName)
     }):Play()
     wait()
     game.TweenService:Create(shadow, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {
-        ImageTransparency = 0
+        ImageTransparency = 1
     }):Play()
 
     newPage.Name = "newPage"
     newPage.Parent = pages
     newPage.Active = true
     newPage.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-    newPage.BackgroundTransparency = 1.000
+    newPage.BackgroundTransparency = 1
     newPage.BorderColor3 = Color3.fromRGB(27, 27, 27)
     newPage.Size = UDim2.new(1, 0, 1, 0)
     newPage.ScrollBarThickness = 3
@@ -372,7 +372,7 @@ function Forums.new(newName)
                 end
                 c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
                 for i = 1, 10 do
-                    c.ImageTransparency = c.ImageTransparency + 0.05
+                    c.ImageTransparency = c.ImageTransparency + 0
                     wait(len / 12)
                 end
                 c:Destroy()
@@ -395,7 +395,7 @@ function Forums.new(newName)
                     wait(0.14)
                     btnText.Text = textB
                     game.TweenService:Create(btnText, TweenInfo.new(0.14, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {
-                        TextTransparency = 0
+                        TextTransparency = 1
                     }):Play()
                 end 
             end
@@ -505,7 +505,7 @@ function Forums.new(newName)
             Sample.ZIndex = 2
             Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
             Sample.ImageColor3 = Color3.fromRGB(71, 27, 27)
-            Sample.ImageTransparency = 0.600
+            Sample.ImageTransparency = 1
 
             circle1.Name = "circle1"
             circle1.Parent = toggleFrame
@@ -547,7 +547,7 @@ function Forums.new(newName)
                 end
                 c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
                 for i = 1, 10 do
-                    c.ImageTransparency = c.ImageTransparency + 0.05
+                    c.ImageTransparency = c.ImageTransparency + 0
                     wait(len / 12)
                 end
                 c:Destroy()
@@ -572,7 +572,7 @@ function Forums.new(newName)
                         ImageTransparency = 1,
                     }):Play()
                     game.TweenService:Create(unchecked, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {
-                        ImageTransparency = 0
+                        ImageTransparency = 1
                     }):Play()
                 else
                     game.TweenService:Create(checked, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {
@@ -589,7 +589,7 @@ function Forums.new(newName)
                         Size = UDim2.new(0,24,0,24)
                     }):Play()
                     game.TweenService:Create(checked, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {
-                        ImageTransparency = 0
+                        ImageTransparency = 1
                     }):Play()
                     game.TweenService:Create(unchecked, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {
                         ImageTransparency = 1
@@ -597,7 +597,7 @@ function Forums.new(newName)
                 end
                 game.TweenService:Create(circle, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {
                     Size = UDim2.new(0,30,0,30),
-                    BackgroundTransparency = 0.7
+                    BackgroundTransparency = 1
                 }):Play()
                 wait(0.15)
                 game.TweenService:Create(circle, TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {
@@ -609,7 +609,7 @@ function Forums.new(newName)
             end)
             btn.MouseButton1Down:Connect(function()
                 game.TweenService:Create(circle, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut), {
-                    BackgroundTransparency = 0.8
+                    BackgroundTransparency = 1
                 }):Play()
             end)
             btn.MouseButton1Up:Connect(function()
@@ -635,7 +635,7 @@ function Forums.new(newName)
                     wait(0.14)
                     toggleFrame_2.Text = textT
                     game.TweenService:Create(toggleFrame_2, TweenInfo.new(0.14, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {
-                        TextTransparency = 0
+                        TextTransparency = 1
                     }):Play()
                 end
                 return toggle
@@ -721,7 +721,7 @@ function Forums.new(newName)
             Sample.ZIndex = 2
             Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
             Sample.ImageColor3 = Color3.fromRGB(71, 27, 27)
-            Sample.ImageTransparency = 0.600
+            Sample.ImageTransparency = 1
 
             local btn = textboxFrame
             btn.MouseEnter:Connect(function()
@@ -751,7 +751,7 @@ function Forums.new(newName)
                     wait(0.14)
                     txtboxText.Text = textB
                     game.TweenService:Create(txtboxText, TweenInfo.new(0.14, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {
-                        TextTransparency = 0
+                        TextTransparency = 1
                     }):Play()
                 end
             end
@@ -791,7 +791,7 @@ function Forums.new(newName)
             Sample.ZIndex = 2
             Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
             Sample.ImageColor3 = Color3.fromRGB(71, 27, 27)
-            Sample.ImageTransparency = 0.600
+            Sample.ImageTransparency = 1
 
             triangle.Name = "triangle"
             triangle.Parent = sliderFrame
@@ -981,7 +981,7 @@ function Forums.new(newName)
                 wait(0.14)
                 currentKey.Text = ". . ."
                 game.TweenService:Create(currentKey, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {
-                    TextTransparency = 0
+                    TextTransparency = 1
                 }):Play()
                 local a, b = game:GetService('UserInputService').InputBegan:wait();
                 if a.KeyCode.Name ~= "Unknown" then
@@ -992,7 +992,7 @@ function Forums.new(newName)
                     currentKey.Text = a.KeyCode.Name
                     oldKey = a.KeyCode.Name;
                     game.TweenService:Create(currentKey, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {
-                        TextTransparency = 0
+                        TextTransparency = 1
                     }):Play()
                 end
                 local c = sample:Clone()
@@ -1007,7 +1007,7 @@ function Forums.new(newName)
                 end
                 c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
                 for i = 1, 10 do
-                    c.ImageTransparency = c.ImageTransparency + 0.05
+                    c.ImageTransparency = c.ImageTransparency + 0
                     wait(len / 12)
                 end
                 c:Destroy()
@@ -1040,7 +1040,7 @@ function Forums.new(newName)
                     oldKey = newKey.Name
                     currentKey.Text = oldKey
                     game.TweenService:Create(currentKey, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {
-                        TextTransparency = 0
+                        TextTransparency = 1
                     }):Play()
                 end
             end
@@ -1120,7 +1120,7 @@ function Forums.new(newName)
                 end
                 c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
                 for i = 1, 10 do
-                    c.ImageTransparency = c.ImageTransparency + 0.05
+                    c.ImageTransparency = c.ImageTransparency + 0
                     wait(len / 12)
                 end
                 c:Destroy()
@@ -1169,7 +1169,7 @@ function Forums.new(newName)
             Sample.ZIndex = 2
             Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
             Sample.ImageColor3 = Color3.fromRGB(71, 27, 27)
-            Sample.ImageTransparency = 0.600
+            Sample.ImageTransparency = 1
 
             expand_more.Name = "expand_more"
             expand_more.Parent = dropOpen
@@ -1227,7 +1227,7 @@ function Forums.new(newName)
                 Sample_2.ZIndex = 2
                 Sample_2.Image = "http://www.roblox.com/asset/?id=4560909609"
                 Sample_2.ImageColor3 = Color3.fromRGB(71, 27, 27)
-                Sample_2.ImageTransparency = 0.600
+                Sample_2.ImageTransparency = 1
 
                 local btn = dropOption
                 local sample = Sample_2
@@ -1257,7 +1257,7 @@ function Forums.new(newName)
                     end
                     c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
                     for i = 1, 10 do
-                        c.ImageTransparency = c.ImageTransparency + 0.05
+                        c.ImageTransparency = c.ImageTransparency + 0
                         wait(len / 12)
                     end
                     c:Destroy()
@@ -1319,7 +1319,7 @@ function Forums.new(newName)
                     Sample_2.ZIndex = 2
                     Sample_2.Image = "http://www.roblox.com/asset/?id=4560909609"
                     Sample_2.ImageColor3 = Color3.fromRGB(71, 27, 27)
-                    Sample_2.ImageTransparency = 0.600
+                    Sample_2.ImageTransparency = 1
 
                     local btn = dropOption
                     local sample = Sample_2
@@ -1351,7 +1351,7 @@ function Forums.new(newName)
                         end
                         c:TweenSizeAndPosition(UDim2.new(0, size, 0, size), UDim2.new(0.5, (-size / 2), 0.5, (-size / 2)), 'Out', 'Quad', len, true, nil)
                         for i = 1, 10 do
-                            c.ImageTransparency = c.ImageTransparency + 0.05
+                            c.ImageTransparency = c.ImageTransparency + 0
                             wait(len / 12)
                         end
                         c:Destroy()
