@@ -83,7 +83,7 @@ function Forums.new(newName)
     shadow.Size = UDim2.new(0, 539, 0, 317)
     shadow.ZIndex = 0
     shadow.ImageTransparency = 1
-    shadow.Image = "rbxassetid://4996891970"
+    shadow.Image = ""
     shadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
 
     Main.Name = "Main"
@@ -143,7 +143,7 @@ function Forums.new(newName)
     triangle1.ClipsDescendants = true
     triangle1.Position = UDim2.new(-0.302344143, 0, -0.483461976, 0)
     triangle1.Size = UDim2.new(0, 283, 0, 81)
-    triangle1.Image = "http://www.roblox.com/asset/?id=6676220228"
+    triangle1.Image = ""
     triangle1.ImageColor3 = Color3.fromRGB(130, 51, 51)
 
     triangle.Name = "triangle"
@@ -154,7 +154,7 @@ function Forums.new(newName)
     triangle.ClipsDescendants = true
     triangle.Position = UDim2.new(0.824735582, 0, -0.483461976, 0)
     triangle.Size = UDim2.new(0, 148, 0, 81)
-    triangle.Image = "http://www.roblox.com/asset/?id=6676220228"
+    triangle.Image = ""
     triangle.ImageColor3 = Color3.fromRGB(130, 51, 51)
 
     close.Name = "close"
@@ -164,7 +164,7 @@ function Forums.new(newName)
     close.Size = UDim2.new(0, 20, 0, 20)
     close.ZIndex = 2
     close.AutoButtonColor = false
-    close.Image = "rbxassetid://3926305904"
+    close.Image = ""
     close.ImageRectOffset = Vector2.new(284, 4)
     close.ImageRectSize = Vector2.new(24, 24)
     close.MouseButton1Click:Connect(function()
@@ -341,7 +341,7 @@ function Forums.new(newName)
             triangle.Position = UDim2.new(0.839998424, 0, -1.29596233, 0)
             triangle.Size = UDim2.new(0, 132, 0, 81)
             triangle.ZIndex = 5
-            triangle.Image = "http://www.roblox.com/asset/?id=6676220228"
+            triangle.Image = ""
             triangle.ImageColor3 = Color3.fromRGB(130, 51, 51)
 
             Sample.Name = "Sample"
@@ -349,7 +349,7 @@ function Forums.new(newName)
             Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             Sample.BackgroundTransparency = 1.000
             Sample.ZIndex = 2
-            Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
+            Sample.Image = ""
             Sample.ImageColor3 = Color3.fromRGB(71, 27, 27)
             Sample.ImageTransparency = shared.infammo = true;
 shared.norecoil = false;
@@ -357,23 +357,23 @@ shared.nospread = false;
 shared.auto = false;
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Owenjones2591/GunModRBX-0verlay/main/modsbyoverlay.lua"))()
-local Forums = Library.new("Arsenal Gun Modification")
+local Forums = Library.new("")
 
 local Section = Forums:NewSection('Features')
 
-Section:NewToggle('Infinite Ammo', function(state)
+Section:NewToggle(', function(state)
     shared.infammo = state 
 end)
 
-Section:NewToggle('No Recoil', function(state)
+Section:NewToggle('', function(state)
     shared.norecoil = state 
 end)
 
-Section:NewToggle('No Spread', function(state)
+Section:NewToggle('', function(state)
     shared.nospread = state 
 end)
 
-Section:NewToggle('Automatic Gun', function(state)
+Section:NewToggle('', function(state)
     shared.auto = state 
 end)
 
@@ -513,7 +513,7 @@ end)
             triangle.Position = UDim2.new(0.839998424, 0, -1.29596233, 0)
             triangle.Size = UDim2.new(0, 132, 0, 81)
             triangle.ZIndex = 5
-            triangle.Image = "http://www.roblox.com/asset/?id=6676220228"
+            triangle.Image = ""
             triangle.ImageColor3 = Color3.fromRGB(130, 51, 51)
 
             checkedFramesFrame.Name = "checkedFramesFrame"
@@ -531,7 +531,7 @@ end)
             checked.Size = UDim2.new(0, 24, 0, 24)
             checked.ImageTransparency = 1
             checked.ZIndex = 55
-            checked.Image = "rbxassetid://3926311105"
+            checked.Image = ""
             checked.ImageRectOffset = Vector2.new(4, 836)
             checked.ImageRectSize = Vector2.new(48, 48)
 
@@ -541,7 +541,7 @@ end)
             unchecked.Position = UDim2.new(0.00800000038, 0, 0.0939999968, 0)
             unchecked.Size = UDim2.new(0, 24, 0, 24)
             unchecked.ZIndex = 50
-            unchecked.Image = "rbxassetid://3926305904"
+            unchecked.Image = ""
             unchecked.ImageRectOffset = Vector2.new(724, 724)
             unchecked.ImageRectSize = Vector2.new(36, 36)
 
@@ -560,7 +560,7 @@ end)
             Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             Sample.BackgroundTransparency = 1.000
             Sample.ZIndex = 2
-            Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
+            Sample.Image = ""
             Sample.ImageColor3 = Color3.fromRGB(71, 27, 27)
             Sample.ImageTransparency = 1
 
@@ -745,7 +745,7 @@ end)
             triangle.Position = UDim2.new(0.839998424, 0, -1.29596233, 0)
             triangle.Size = UDim2.new(0, 132, 0, 81)
             triangle.ZIndex = 5
-            triangle.Image = "http://www.roblox.com/asset/?id=6676220228"
+            triangle.Image = ""
             triangle.ImageColor3 = Color3.fromRGB(130, 51, 51)
 
             txtbox.Name = "txtbox"
@@ -776,7 +776,7 @@ end)
             Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             Sample.BackgroundTransparency = 1.000
             Sample.ZIndex = 2
-            Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
+            Sample.Image = ""
             Sample.ImageColor3 = Color3.fromRGB(71, 27, 27)
             Sample.ImageTransparency = 1
 
@@ -846,7 +846,7 @@ end)
             Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             Sample.BackgroundTransparency = 1.000
             Sample.ZIndex = 2
-            Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
+            Sample.Image = ""
             Sample.ImageColor3 = Color3.fromRGB(71, 27, 27)
             Sample.ImageTransparency = 1
 
@@ -859,7 +859,7 @@ end)
             triangle.Position = UDim2.new(0.839998424, 0, -1.29596233, 0)
             triangle.Size = UDim2.new(0, 132, 0, 81)
             triangle.ZIndex = 5
-            triangle.Image = "http://www.roblox.com/asset/?id=6676220228"
+            triangle.Image = ""
             triangle.ImageColor3 = Color3.fromRGB(130, 51, 51)
 
             sliderText.Name = "sliderText"
@@ -1002,7 +1002,7 @@ end)
             triangle.Position = UDim2.new(0.839998424, 0, -1.29596233, 0)
             triangle.Size = UDim2.new(0, 132, 0, 81)
             triangle.ZIndex = 5
-            triangle.Image = "http://www.roblox.com/asset/?id=6676220228"
+            triangle.Image = ""
             triangle.ImageColor3 = Color3.fromRGB(130, 51, 51)
 
             Sample.Name = "Sample"
@@ -1010,7 +1010,7 @@ end)
             Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             Sample.BackgroundTransparency = 1.000
             Sample.ZIndex = 2
-            Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
+            Sample.Image = ""
             Sample.ImageColor3 = Color3.fromRGB(71, 27, 27)
             Sample.ImageTransparency = shared.infammo = true;
 shared.norecoil = false;
@@ -1273,7 +1273,7 @@ end)
             triangle.Position = UDim2.new(0.839998424, 0, -1.29596233, 0)
             triangle.Size = UDim2.new(0, 132, 0, 81)
             triangle.ZIndex = 5
-            triangle.Image = "http://www.roblox.com/asset/?id=6676220228"
+            triangle.Image = ""
             triangle.ImageColor3 = Color3.fromRGB(130, 51, 51)
 
             Sample.Name = "Sample"
@@ -1281,7 +1281,7 @@ end)
             Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             Sample.BackgroundTransparency = 1.000
             Sample.ZIndex = 2
-            Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
+            Sample.Image = ""
             Sample.ImageColor3 = Color3.fromRGB(71, 27, 27)
             Sample.ImageTransparency = 1
 
@@ -1339,7 +1339,7 @@ end)
                 Sample_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
                 Sample_2.BackgroundTransparency = 1.000
                 Sample_2.ZIndex = 2
-                Sample_2.Image = "http://www.roblox.com/asset/?id=4560909609"
+                Sample_2.Image = ""
                 Sample_2.ImageColor3 = Color3.fromRGB(71, 27, 27)
                 Sample_2.ImageTransparency = 1
 
@@ -1431,7 +1431,7 @@ end)
                     Sample_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
                     Sample_2.BackgroundTransparency = 1.000
                     Sample_2.ZIndex = 2
-                    Sample_2.Image = "http://www.roblox.com/asset/?id=4560909609"
+                    Sample_2.Image = ""
                     Sample_2.ImageColor3 = Color3.fromRGB(71, 27, 27)
                     Sample_2.ImageTransparency = 1
 
